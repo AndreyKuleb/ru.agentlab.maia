@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Match
+Bundle-SymbolicName: ru.agentlab.maia.agent.filter
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: de.derivo.sparqldlapi;bundle-version="1.0.0",
+ javax.inject,
+ org.hamcrest.library,
+ org.semanticweb.owlapi.compatibility,
+ ru.agentlab.maia.agent
+Export-Package: ru.agentlab.maia.belief.filter

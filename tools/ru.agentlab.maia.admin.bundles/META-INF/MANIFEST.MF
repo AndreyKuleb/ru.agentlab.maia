@@ -7,13 +7,21 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Require-Bundle: com.google.guava,
  io.netty;bundle-version="4.0.26",
  javax.inject,
+<<<<<<< HEAD
  ru.agentlab.maia.service.message;bundle-version="1.0.0",
+=======
+ ru.agentlab.maia.message;bundle-version="1.0.0",
+>>>>>>> refs/remotes/origin/feature/#32-beliefbase-centric
  org.semanticweb.owlapi.compatibility,
  org.semanticweb.owlapi.apibinding,
  org.semanticweb.owlapi.api,
  ru.agentlab.maia.message.annotation,
  ru.agentlab.maia.agent.annotation,
+<<<<<<< HEAD
  ru.agentlab.maia.service.message.fipa;bundle-version="1.0.0",
+=======
+ ru.agentlab.maia.fipa;bundle-version="1.0.0",
+>>>>>>> refs/remotes/origin/feature/#32-beliefbase-centric
  ru.agentlab.maia.agent,
  ru.agentlab.maia.message.impl
 Import-Package: org.eclipse.osgi.util;version="1.1.0",

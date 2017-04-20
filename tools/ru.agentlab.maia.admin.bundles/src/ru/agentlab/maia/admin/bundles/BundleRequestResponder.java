@@ -12,9 +12,15 @@ import ru.agentlab.maia.agent.IMessage;
 import ru.agentlab.maia.agent.annotation.AxiomType;
 import ru.agentlab.maia.agent.annotation.OnGoalAdded;
 import ru.agentlab.maia.agent.annotation.OnOWLGoalFailed;
+<<<<<<< HEAD
 import ru.agentlab.maia.service.message.IMessageDeliveryService;
 import ru.agentlab.maia.service.message.annotation.OnMessageReceived;
 import ru.agentlab.maia.service.message.fipa.FIPAPerformativeNames;
+=======
+import ru.agentlab.maia.fipa.FIPAPerformativeNames;
+import ru.agentlab.maia.message.IMessageDeliveryService;
+import ru.agentlab.maia.message.annotation.OnMessageReceived;
+>>>>>>> refs/remotes/origin/feature/#32-beliefbase-centric
 
 public class BundleRequestResponder {
 

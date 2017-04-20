@@ -9,9 +9,13 @@ Require-Bundle: com.google.guava;bundle-version="18.0.0",
  org.hamcrest.core;bundle-version="1.3.0",
  org.semanticweb.owlapi.compatibility,
  de.derivo.sparqldlapi;bundle-version="1.0.0",
+<<<<<<< HEAD
  org.semanticweb.owlapi.api,
  org.apache.commons.lang3;bundle-version="3.1.0",
  ru.agentlab.maia;bundle-version="1.0.0"
+=======
+ org.semanticweb.owlapi.api
+>>>>>>> refs/remotes/origin/feature/#32-beliefbase-centric
 Export-Package: ru.agentlab.maia.agent,
  ru.agentlab.maia.agent.annotation,
  ru.agentlab.maia.agent.annotation.converter,
@@ -20,6 +24,12 @@ Export-Package: ru.agentlab.maia.agent,
  ru.agentlab.maia.agent.belief.filter,
  ru.agentlab.maia.agent.converter,
  ru.agentlab.maia.agent.event,
+<<<<<<< HEAD
  ru.agentlab.maia.agent.filter,
  ru.agentlab.maia.agent.filter.impl
+=======
+ ru.agentlab.maia.converter,
+ ru.agentlab.maia.filter,
+ ru.agentlab.maia.filter.impl
+>>>>>>> refs/remotes/origin/feature/#32-beliefbase-centric
 

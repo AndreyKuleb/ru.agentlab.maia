@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Message
+Bundle-SymbolicName: ru.agentlab.maia.message.annotation
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: ru.agentlab.maia.message.annotation
+Require-Bundle: org.hamcrest.core;bundle-version="1.3.0",
+ ru.agentlab.maia.agent;bundle-version="1.0.0",
+ ru.agentlab.maia.message,
+ ru.agentlab.maia.message.filter;bundle-version="1.0.0",
+ ru.agentlab.maia.message.impl
